@@ -16,13 +16,17 @@ function App() {
 
   return (
     <>
-      <header className="bg-secondary">
+      <header className="bg-danger">
         <div className="container p-3">
           <h1
             className="text-center
-         me-3 me-3"
+         me-3 me-3 display-1 "
           >
-            <i className="bi bi-camera-reels me-3 text-info"></i>Attrici
+            <i
+              className="fa-solid fa-clapperboard me-3"
+              style={{ color: "#B197FC" }}
+            ></i>
+            Attrici
           </h1>
           <button className="bg-primary text-light" onClick={handleClick}>
             Carica lista Attrici
