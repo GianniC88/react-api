@@ -48,8 +48,8 @@ function App() {
                         alt={characters.name}
                         style={{ height: "300px", objectFit: "cover" }}
                       />
-                      <div className="p-3 text-light">
-                        <h4>{characters.name}</h4>
+                      <div className="p-3 text-light ">
+                        <h4 className="display-6">{characters.name}</h4>
                         <p>
                           <strong>Anno di nascita:</strong>{" "}
                           {characters.birth_year}
